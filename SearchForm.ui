@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchForm</class>
+ <widget class="QWidget" name="SearchForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../lightning_iO0_icon.ico</normaloff>../lightning_iO0_icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="InteractiveButton" name="BackButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Back.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Back.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>45</y>
+     <width>641</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="InteractiveButton" name="ForwardButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Forward.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Forward.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="InteractiveButton" name="EyeButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Eye.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Eye.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="InteractiveButton" name="EditButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Edit.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/Edit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSwitch">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>90</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../build-Framework-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Images/Left.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>422</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="LayoutOfEditButtons">
+    <property name="spacing">
+     <number>16</number>
+    </property>
+    <item>
+     <widget class="InteractiveButton" name="AddAreaButton">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddArea.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddArea.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>53</width>
+        <height>42</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="InteractiveButton" name="AddGreenButton">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddButton.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddButton.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>53</width>
+        <height>42</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="InteractiveButton" name="AddFunction">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddFunction.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddFunction.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>53</width>
+        <height>42</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="InteractiveButton" name="AddFlashButton">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddFlashButton.png</normaloff>../build-Framework-Desktop_Qt_5_5_1_MinGW_32bit-Debug/Images/AddFlashButton.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>53</width>
+        <height>42</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="InteractiveButton" name="SaveButton">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>31</width>
+        <height>31</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="InteractiveButton" name="DoBackupButton">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>31</width>
+        <height>31</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>labelSwitch</zorder>
+  <zorder>BackButton</zorder>
+  <zorder>line</zorder>
+  <zorder>ForwardButton</zorder>
+  <zorder>EyeButton</zorder>
+  <zorder>EditButton</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>InteractiveButton</class>
+   <extends>QPushButton</extends>
+   <header>InteractiveButton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
